@@ -1,4 +1,4 @@
-# Sampati
+# Sambhavam
 
 ## An Open source application framework for Job Consultancies and Outsourcing to rely upon
 
