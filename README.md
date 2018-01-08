@@ -8,4 +8,11 @@
     * Mail Body
     * Mail Attachment
 
-### Installation Documentation [here](Install.md)
+### Getting Started
+
+* Follow the Installation Documentation [here](Install.md)
+* Start the Server
+    ```sh
+    $ python manage.py runserver
+    ```
+* Access the Application on http://localhost:8000/

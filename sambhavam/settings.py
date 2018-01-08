@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'sambhavam.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django_mongodb_engine',
-        'NAME': 'sambhavam_db'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
     }
 }
 
@@ -106,6 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+# TODO: Need to set actual time zone or try USE_TZ to False
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
