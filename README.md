@@ -33,3 +33,8 @@
     $ python manage.py runserver
     ```
 * Access the Application on http://localhost:8000/ which will open the Django Rest Framework API explorer.
+* Checking Gmail messages.
+
+    ```sh
+    $ python mail/checkgmail.py
+    ```
